@@ -1,0 +1,14 @@
+﻿<Window x:Class="Scanner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Scanner"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBox x:Name="textbox" HorizontalAlignment="Left" Height="211" Margin="40,0,0,0" TextWrapping="Wrap" Width="711" AcceptsReturn="True" TextChanged="Textbox_TextChanged"/>
+        <Button x:Name="submit" Content="submit" Click="submit_click" Width="150" Height="50" RenderTransformOrigin="0.488,0.467" Margin="150"/>
+  
+    </StackPanel>
+</Window>
